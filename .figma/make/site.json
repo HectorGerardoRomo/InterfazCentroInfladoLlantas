@@ -1,0 +1,10 @@
+{
+  "description": "This web application provides an intuitive interface for users to locate and access tire inflation centers, ensuring convenient and efficient tire maintenance.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

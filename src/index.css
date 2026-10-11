@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  --cream: #f6f7f2;
+  --navy: #2e1f4f;
+  --muted: #746e80;
+  --line: #e3ddeb;
+  --soft: #f1edf6;
+  --green: #c4a7f5;
+  --green-light: #d8c3fb;
+  --green-dark: #7651b5;
+  --button-shadow: 0 12px 28px rgba(118, 81, 181, 0.24);
+  --hero-shadow: 0 30px 70px rgba(46, 31, 79, 0.2);
+  font-family: "DM Sans", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--cream);
+}
+
+button {
+  font: inherit;
+}
+
+.font-display {
+  font-family: "Manrope", sans-serif;
+}
+
+@keyframes loading {
+  from {
+    width: 4%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
